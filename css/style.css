@@ -61,7 +61,7 @@ main .bg-1  .pac h1 {
 main .bg-1  .pac p  {
   color: white;
   font-size: 20px;
-  font-family: 'Heebo', sans-serif;;
+  font-family: 'Heebo', sans-serif;
 }
 main .jumbotron .col-md-4 {
   margin-top: 125px;
@@ -69,6 +69,27 @@ main .jumbotron .col-md-4 {
 main .bg-1 .form-horizontal .ass {
   padding: 0 30px
 }
+
+/* bg-2 */
+main .bg-2 {
+  background-color: #f3f5f9;
+}
+main .bg-2 h6{
+ color: #626c87;
+ font-size: 15px;
+ text-transform: uppercase;
+ font-family: 'Heebo', sans-serif;
+}
+main .bg-2 p{
+ color:#0069ff;
+ font-size: 15px;
+ font-family: 'Heebo', sans-serif;
+}
+main .bg-2 .da {
+  text-align: center;
+  padding: 30px 0;
+}
+main .bg-2
 @media screen and (max-width: 768px) {
 
 }
