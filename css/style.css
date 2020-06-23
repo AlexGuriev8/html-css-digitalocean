@@ -30,6 +30,7 @@ header .navbar-default .navbar-nav > li > a:hover {
 main .bg-1 {
   background-color: #0061ff;
 }
+
 main .bg-1 .color {
   background-color: #f3f5f9;
   border-radius: 5px;
@@ -43,6 +44,7 @@ main .bg-1 .jumbotron{
 main {
     font-family: 'Heebo', sans-serif;
 }
+
 main .bg-1 .titolo {
 width: 100%;
 text-align: center;
@@ -54,11 +56,13 @@ main .bg-1 h5 {
   font-size: 20px;
   padding: 10px 0;
 }
+
 main .bg-1  .pac h1 {
   padding-top: 100px;
   color: white;
 }
-main .bg-1  .pac p  {
+
+main .bg-1  .pac p {
   color: white;
   font-size: 20px;
   font-family: 'Heebo', sans-serif;
@@ -70,26 +74,56 @@ main .bg-1 .form-horizontal .ass {
   padding: 0 30px
 }
 
-/* bg-2 */
+/* bg-2 Section Inovative bussiness*/
 main .bg-2 {
   background-color: #f3f5f9;
 }
-main .bg-2 h6{
+
+main .bg-2 h6 {
  color: #626c87;
  font-size: 15px;
  text-transform: uppercase;
  font-family: 'Heebo', sans-serif;
 }
-main .bg-2 p{
+
+main .bg-2 p {
  color:#0069ff;
  font-size: 15px;
  font-family: 'Heebo', sans-serif;
 }
+
 main .bg-2 .da {
   text-align: center;
   padding: 30px 0;
 }
-main .bg-2
+main .bg-2 .da p:hover {
+  color: #031b69;
+
+}
+
+/* bg-3 */
+
+main .bg-3 .da h2 {
+  text-align: center;
+  padding: 30px 0;
+  color: #031b4e;
+}
+
+}
+main .bg-3 .row .dks p {
+  text-align: center;
+}
+main .bg-3 .dks{
+  text-align: center;
+}
+
+main .bg-3 .blacon a:hover {
+  color: red;
+}
+#noborder {
+  border: none;
+  padding-top: 15px;
+}
 @media screen and (max-width: 768px) {
 
 }
@@ -104,4 +138,5 @@ main .bg-2
 header .navbar-btn {
 display: none;
 }
+
 }
