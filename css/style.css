@@ -43,15 +43,32 @@ main .bg-1 .jumbotron{
 main {
     font-family: 'Heebo', sans-serif;
 }
+main .bg-1 .titolo {
+width: 100%;
+text-align: center;
+color: #031b4e;
+background-color: #f3f5f9;
 
+}
+main .bg-1 h5 {
+  font-size: 20px;
+  padding: 10px 0;
+}
 main .bg-1  .pac h1 {
   padding-top: 100px;
   color: white;
 }
+main .bg-1  .pac p  {
+  color: white;
+  font-size: 20px;
+  font-family: 'Heebo', sans-serif;;
+}
 main .jumbotron .col-md-4 {
   margin-top: 125px;
 }
-
+main .bg-1 .form-horizontal .ass {
+  padding: 0 30px
+}
 @media screen and (max-width: 768px) {
 
 }
