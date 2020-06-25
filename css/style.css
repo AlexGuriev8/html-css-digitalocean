@@ -1,12 +1,15 @@
 header .navbar-brand img {
-   height: 40px;
-
+   height: 100%;
 }
 
 header .navbar-form.navbar-left {
   margin-left: 30px;
 }
-
+header .navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  padding: 10px 0;
+}
 header .navbar-btn {
 margin-top: 10px;
 padding: 10px 10px;
@@ -28,18 +31,13 @@ header .navbar-default .navbar-nav > li > a:hover {
 /* first section */
 
 main .bg-1 {
-  background-color: #0061ff;
+  background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-main .bg-1 .color {
-  background-color: #f3f5f9;
-  border-radius: 5px;
-  padding-top: 20px;
-}
 
-main .bg-1 .jumbotron{
-  background-color: #0061ff;
-}
 
 main {
     font-family: 'Heebo', sans-serif;
@@ -52,26 +50,32 @@ color: #031b4e;
 background-color: #f3f5f9;
 }
 
-main .bg-1 h5 {
-  font-size: 20px;
-  padding: 10px 0;
-}
 
-main .bg-1  .pac h1 {
+
+main .bg-1   h1 {
+  margin-top: 200px;
   padding-top: 100px;
   color: white;
+  font-size: 58px;
+  line-height: 120%;
 }
 
-main .bg-1  .pac p {
+main .bg-1 p {
+  padding-bottom: 70px;
+  font-size: 24px;
+  line-height: 150%;
   color: white;
-  font-size: 20px;
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Sailec-Light';
 }
-main .jumbotron .col-md-4 {
-  margin-top: 125px;
+
+main .bg-1 .jumbotron {
+  margin-top: 180px;
 }
-main .bg-1 .form-horizontal .ass {
-  padding: 0 30px
+main .bg-1  h4 {
+  font-size: 18px;
+  line-height: 120%;
+  color: #031b4e;
+
 }
 
 /* bg-2 Section Inovative bussiness*/
