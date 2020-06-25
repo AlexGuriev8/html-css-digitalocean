@@ -263,6 +263,7 @@ border-bottom: 1px solid grey;
 
   width: 90%;
 }
+
 main .bg-6 .sposta {
   padding-bottom: 70px;
 }
@@ -270,11 +271,13 @@ main .bg-6 .sposta {
 main .bg-7 {
   background-color: #f3f5f9;
 }
+
 main .bg-7 .da h2 {
   text-align: center;
   color: #031b4e;
   padding-top: 70px;
 }
+
 main .bg-7 .da p {
     color: #031b4e;
     margin: 20px auto;
@@ -284,23 +287,26 @@ main .bg-7 .da p {
     text-align: center;
 
 }
+
 main .bg-7  .development {
   text-align: center;
   width: 20%;
   display: block;
   margin: 40px auto 20px auto;
 }
+
 main .bg-7 .colr {
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 150px;
     background-color: white;
     border-radius: 5px;
 
 }
+
 main .bg-7  .center {
   text-align: center;
-
 }
+
 main .bg-7  .center p {
   font-size: 20px;
   color: #686e96;
@@ -308,12 +314,98 @@ main .bg-7  .center p {
   width: 70%;
   text-align: center;
 }
+
+main .bg-7  .info {
+  padding: 45px 0;
+}
+
 main .bg-7  .info p {
   font-size: 15px;
   color: #686e96;
   text-align: center;
-  padding-top: 10px;
 }
+
+/* bg-8 */
+main .bg-8 {
+  background-image: url(https://images.prismic.io/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg?auto=compress,format);
+}
+
+main .bg-8 h1 {
+  padding: 60px 0;
+  color: white;
+}
+
+main .bg-8 .btn {
+  margin-top: 25px;
+  color: #0069ff;
+  padding: 20px 20px;
+}
+
+footer {
+  background-color: #010e28;
+}
+footer .footer-list ul li{
+  list-style: none;
+}
+
+footer .footer-list {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+footer .fir1 {
+  width: 19%;
+}
+
+.black a {
+  text-decoration: none;
+  font-size: 15px;
+  text-align: left;
+}
+
+.black  ul li a {
+ text-decoration: none;
+}
+
+.black ul li {
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+.black ul li:first-child a{
+ color: white;
+}
+
+.black hr{
+  border-top: 1px solid hsla(0,0%,100%,0.5);
+}
+.footer-bottom-left img{
+  display: inline-block;
+}
+
+.footer-bottom-left p {
+  color: hsla(0,0%,100%,0.5);
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.black ul li a{
+  color: hsla(0,0%,100%,0.5);
+}
+
+ .black ul li a:hover {
+  color: white;
+}
+.footer-bottom-left,
+.footer-bottom-right {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.list-inline i {
+  font-size: 20px;
+}
+
 @media screen and (max-width: 768px) {
 
 }
