@@ -11,7 +11,6 @@ header .navbar-default {
   padding: 10px 0;
 }
 header .navbar-btn {
-margin-top: 10px;
 padding: 10px 10px;
 color: #005eff;
 }
@@ -160,6 +159,10 @@ main .bg-3 .dsa img {
 
 main .bg-3 .blacon a:hover {
   color: red;
+}
+
+main .bg-3 .blacon{
+  text-align: center;
 }
 
 #noborder {
@@ -410,19 +413,22 @@ footer .fir1 {
   font-size: 20px;
 }
 
-@media screen and (max-width: 768px) {
+.text-center-xs {
+  text-align: center;
+}
+.contcont{
+    text-align: center;
+    padding: 60px 0 60px 0;
+}
 
+@media screen and (min-width: 768px) {
+.text-left-sm {
+  text-align: center;
+}
 }
 
 @media screen and (max-width: 991px) {
-  header .navbar-brand img {
-     height: 30px;
-}
-  header .navbar-left li a {
-    display: none;
-}
-header .navbar-btn {
-display: none;
-}
+
+
 
 }
