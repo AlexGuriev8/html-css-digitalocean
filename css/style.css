@@ -68,7 +68,6 @@ main .bg-2 p {
 main .bg-2 .da {
   text-align: center;
   padding-top: 30px;
-  padding-bottom: 70px;
 }
 main .bg-2 .dar {
   text-align: center;
@@ -83,7 +82,6 @@ main .bg-2 .da p:hover {
 /* bg-3 */
 main .bg-3 .da {
   text-align: center;
-  padding-top: 70px;
 }
 
 main .bg-3 .da h2 {
@@ -93,7 +91,7 @@ main .bg-3 .da h2 {
 }
 
 main .bg-3 .pad3 {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 main .bg-3 .dks p {
@@ -185,7 +183,7 @@ main .bg-5 {
 main .bg-5 h2{
   text-align: center;
   color: #031b4e;
-  padding-top: 70px;
+  padding-top: 30px;
   padding-bottom: 50px;
 }
 
