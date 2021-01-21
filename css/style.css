@@ -457,13 +457,13 @@ footer .footer-list {
     padding-bottom: 0;
   }
   .h-800 {
-    height: 270px;
+    padding-top: 440px;
 
   }
   .vertical-middle {
     position: absolute;
     top: 50%;
-    transform: translateY(-25%);
+    transform: translateY(-50%);
   }
 
  .jumbotron {
